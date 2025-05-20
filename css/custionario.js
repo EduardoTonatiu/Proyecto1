@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', function() {
       // Aquí iría la lógica real de pago
       alert("🎉 Compra realizada con éxito. Redirigiendo...");
       setTimeout(() => {
-        window.location.href = "iniciopag.html";
+        window.location.href = "../iniciopag.html";
       }, 2000);
     }
   }
