@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('btnDescargar').addEventListener('click', descargarPDF);
     document.getElementById('btnComprar').addEventListener('click', confirmarCompra);
     document.getElementById('btnCancelar').addEventListener('click', () => {
-      window.location.href = "cancelar.html";
+      window.location.href = "PelisPlanet.html";
     });
   });
   
@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', function() {
       // Aquí iría la lógica real de pago
       alert("🎉 Compra realizada con éxito. Redirigiendo...");
       setTimeout(() => {
-        window.location.href = "gracias.html";
+        window.location.href = "iniciopag.html";
       }, 2000);
     }
   }
